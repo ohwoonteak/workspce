@@ -1,0 +1,14 @@
+public class ExamIntegerParse {
+	public static void main(String[] args){
+		String number = "70";
+		int aaa = Integer.parseInt(sumber);
+		
+
+		String result = aaa + ": number";
+		
+	}
+	
+	
+	
+	
+}
