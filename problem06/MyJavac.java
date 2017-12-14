@@ -2,8 +2,8 @@ public class MyJavac{
 
 	public static void main(String[] args){
 
-		System.out.println("¿É¼Ç:" + " " + args[0] + "/" +  " " + "°ª:" + args[1]);
-		System.out.println("¿É¼Ç:" + " " + args[2] + "/" +  " " + "°ª:" + " " + args[3]);
+		System.out.println("ì˜µì…˜:" + " " + args[0] + "/" +  " " + "ê°’:" + args[1]);
+		System.out.println("ì˜µì…˜:" + " " + args[2] + "/" +  " " + "ê°’:" + " " + args[3]);
 
 
 
