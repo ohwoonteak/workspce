@@ -1,8 +1,8 @@
 class Person {
 		int headSize;	//머리크기	(숫자)
-		int height;	//키		(숫자)
+		int height;		//키		(숫자)
 		String gender;	//성별		(문자)
-		int age;	//나이		(숫자)
+		int age;		//나이		(숫자)
 		String name;	//이름		(문자)
 		String family;	//가족		(문자)
 		
