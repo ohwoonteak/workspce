@@ -10,14 +10,14 @@ public class JavaTypes{
 		//실수형		float			(+,-)1.4E-45 ~ 3.4028235E38(숫자 뒤에 F를 붙임)
 		//실수형		double(기본형)	(+,-)4.9E-324 ~ 1.7976931348623157E308
 		//문자열		String			큰 따옴표로 표기
-		//문자			char			작은 따옴표로 한글자만 표기
+		//문자			char			작은 따옴표로 한글자만 표기,숫자도 입력가능
 		//부울			boolean			true, false 두가지만 들어간다.
 		
 			//정수형
 			int intvalue = 0;
 			int num01 = 10;			//10진수 10을 표기
-			int num02 = 010;		//8진수 8을 표기
-			int num03 = 0x10;		//16진수 16을 표기
+			int num02 = 010;		//8진수 8을 표기 or 01750;
+			int num03 = 0x10;		//16진수 16을 표기 or 0x3e8;
 			byte bnum01 = -128;
 			short snum01 = -32768;
 			long lnum01 = -2147483648L;
@@ -44,6 +44,7 @@ public class JavaTypes{
 			
 			//문자
 			char charval = 'A';
+			char char01 = 65; //'A'
 			System.out.println(charval);
 			
 			//부울
@@ -64,9 +65,10 @@ public class JavaTypes{
 			}
 			//형변환
 			byte byteRes = (byte)129;		//int형을 강제로 byte 타입으로 변환
-			System.out.println(byteRes);
+			System.out.println(byteRes);	//-127출력
+			
 			short shortRes = (short)32768;	//int형을 강제로 short 타입으로 변환
-			System.out.println(shortRes);
+			System.out.println(shortRes);	//-32768출력
 			
 			float floatval01 = 12.34F;
 			int intval01 = (int)floatval01; 		//float 타입이 int 타입으로 변환
@@ -76,5 +78,5 @@ public class JavaTypes{
 			System.out.println(charnum);
 	}
 	
-	
+     	
 }
